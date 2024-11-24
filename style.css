@@ -1,0 +1,49 @@
+body{
+    height: 100vh;
+    background: linear-gradient(166deg,Violet, DarkViolet);
+    /* background: url(big.jpg) no-repeat left/cover; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: Lavender;
+    border-radius: 15px;
+    width: 400px;
+    text-align: center;
+}
+
+.cardHeader {
+    background-color: plum;
+    padding: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+/* .cardBody {
+
+} */
+
+.cardFooter {
+    background-color: plum;
+    padding: 20px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.cardFooter button{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: Orchid;
+    border-color: DarkMagenta;
+    box-shadow: 2px 2px 2px rgb(88, 0, 88);
+}
+
+.cardFooter button:active{
+    background-color: rgb(199, 104, 196);
+}
